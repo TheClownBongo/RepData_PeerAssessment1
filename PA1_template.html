@@ -86,7 +86,7 @@ for (i in 1:dim(data_activity)[1])
     }
 }
 data_activity$h_m &lt;- paste(data_activity$hour, data_activity$minute, matrix(data=&quot;00&quot;, nrow=dim(data_activity)[1], ncol=1), sep=&quot;:&quot;)
-data_activity$date_time &lt;- paste(data_activity$date, data_activity$h_m_s, sep=&quot; &quot;)</code></pre>
+data_activity$date_time &lt;- paste(data_activity$date, data_activity$h_m, sep=&quot; &quot;)</code></pre>
 </div>
 <div id="what-is-mean-total-number-of-steps-taken-per-day" class="section level2">
 <h2>What is mean total number of steps taken per day?</h2>
